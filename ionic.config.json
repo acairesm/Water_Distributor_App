@@ -1,0 +1,7 @@
+{
+  "name": "gabriel_destribuidoras",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

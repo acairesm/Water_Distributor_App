@@ -1,0 +1,169 @@
+.fundo {
+    position: relative;
+    overflow: hidden;
+    min-height: 130vh;
+}
+
+.background_bluepink {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    height: 118%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.botao-voltar {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 8vw; /* Limite a largura a 90% da largura da viewport */
+    height: auto; /* Mantém a proporção original da imagem */
+    object-fit: contain; /* Mantém a proporção sem deformar */
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible; /* Garantir que o aumento de largura seja visível */
+}
+
+
+.wpp1{
+    position: absolute;
+    top: 38.5%;
+    left: 23%;
+    max-width: 8vw; /* Limite a largura a 90% da largura da viewport */
+    height: auto; /* Mantém a proporção original da imagem */
+    object-fit: contain; /* Mantém a proporção sem deformar */
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible; /* Garantir que o aumento de largura seja visível */
+
+
+}
+
+.wpp2 {
+
+    position: absolute;
+    top: 51.6%;
+    left: 23%;
+    max-width: 8vw; /* Limite a largura a 90% da largura da viewport */
+    height: auto; /* Mantém a proporção original da imagem */
+    object-fit: contain; /* Mantém a proporção sem deformar */
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible; /* Garantir que o aumento de largura seja visível */
+
+
+
+}
+
+.map-container {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Ajuste a largura do mapa conforme necessário */
+    height: 300px; /* Ajuste a altura do mapa conforme necessário */
+}
+
+.maps {
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove a borda padrão do iframe */
+}
+
+
+.mapa1{
+
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    max-width: 50vw;  /* Limite a largura a 90% da largura da viewport */
+    height: auto;  /* Mantém a proporção original da imagem */
+    object-fit: contain; /* Mantém a proporção sem deformar */
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible; /* Garantir que o aumento de largura seja visível */
+
+
+
+
+}
+
+.number1 {
+    position: absolute;
+    top: 38.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 13;
+    overflow-x: visible; /* Garantir que o aumento de largura seja visível */
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #9b2f2f;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff,  /* Borda superior esquerda */
+        1px -1px 0 #ffffff,   /* Borda superior direita */
+        -1px 1px 0 #ffffff,   /* Borda inferior esquerda */
+        1px 1px 0 #ffffff;    /* Borda inferior direita */
+        white-space: nowrap; /* Impede a quebra de linha */
+        text-decoration: none; /* Remove a linha de sublinhado */
+
+
+
+}
+
+.number2{
+    position: absolute;
+    top: 51.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 13;
+    overflow-x: visible; /* Garantir que o aumento de largura seja visível */
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #9b2f2f;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff,  /* Borda superior esquerda */
+        1px -1px 0 #ffffff,   /* Borda superior direita */
+        -1px 1px 0 #ffffff,   /* Borda inferior esquerda */
+        1px 1px 0 #ffffff;    /* Borda inferior direita */
+        white-space: nowrap; /* Impede a quebra de linha */
+        text-decoration: none; /* Remove a linha de sublinhado */
+
+
+
+}
+
+.linha-vermelha {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 12;
+    width: 350px;
+    height: 100px;
+    background-color: #9b2f2f;
+    border-radius: 30px;
+    margin: 100px auto;
+}
+
+
+.linha-vermelha2{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 12;
+    width: 350px;
+    height: 100px;
+    background-color: #9b2f2f;
+    border-radius: 30px;
+    margin: 100px auto;
+
+
+
+}

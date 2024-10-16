@@ -1,0 +1,184 @@
+/* Estrutura base */
+.fundo {
+    position: relative;
+    overflow: hidden;
+    min-height: 130vh;
+}
+
+.background_bluepink {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    height: 118%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+/* Ajuste da imagem do galão */
+.galao {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    max-width: 1500vw;
+    height: auto;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible;
+}
+
+/* Borda dourada */
+.borda_dourada {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    max-width: 240vw;
+    height: auto;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible;
+}
+
+/* Botão de voltar */
+.botao-voltar {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 8vw;
+    height: auto;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible;
+}
+
+/* Título principal */
+.garafao20 {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 13;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #9b2f2f;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff;
+    white-space: nowrap;
+}
+
+/* Descrição do galão */
+.cgarrafaodescrition {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 13;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Caixa azul no fundo */
+.BlueBox {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    width: 550%;
+    height: 220px;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    overflow-x: visible;
+}
+
+/* Preço principal */
+.preco {
+    position: absolute;
+    top: 72%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    z-index: 13;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #9b2f2f;
+    letter-spacing: 2px;
+    text-shadow:
+        -1px -1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff;
+}
+
+/* Botão "Adicionar ao Carrinho" */
+.add-to-cart-btn {
+    position: absolute;
+    top: 73.5%;
+    left: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 15;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Seção de preços (Varejo e Atacado) */
+.pricing-section {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo para Varejo */
+.varejo {
+    top: 38%;
+}
+
+/* Estilo para Atacado */
+.atacado {
+    top: 48%;
+}
+
+/* Estilizando títulos dentro das seções */
+.pricing-section .title {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+/* Estilizando os preços */
+.pricing-section .price {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #ff5733;
+    font-weight: bold;
+}

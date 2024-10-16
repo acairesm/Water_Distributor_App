@@ -1,0 +1,395 @@
+.fundo {
+    position: relative;
+    overflow: hidden;
+    min-height: 130vh;
+}
+
+.background_bluepink {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    height: 118%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Menor z-index */
+}
+
+.background_gabriel {
+    position: absolute;
+    top: 34%;
+    left: 49%;
+    width: 120%;
+    height: 114%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    opacity: 0.060;
+    z-index: 2; /* Menor z-index */
+}
+
+.logo {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    width: 1000%;
+    max-width: 2000px;
+    height: auto;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Menor z-index */
+}
+
+.BlueBox {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 500%;
+    height: 200px;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 4; /* Menor z-index */
+    overflow-x: visible;
+}
+
+.RedBox {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 5; /* Menor z-index */
+    overflow-x: visible;
+}
+
+.BlueBox1 {
+    position: absolute;
+    top: 32.5%;
+    left: 50%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 6; /* Menor z-index */
+    overflow-x: visible;
+}
+
+.RedBox1 {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 7; /* Menor z-index */
+    overflow-x: visible;
+}
+
+
+.promocao{
+    position: absolute;
+    top: 30.6%;
+    left: 50%;
+    max-width: 15vw;  /* Limite a largura a 90% da largura da viewport */
+    height: auto;  /* Mantém a proporção original da imagem */
+    object-fit: contain; /* Mantém a proporção sem deformar */
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible; 
+
+}
+
+
+.galao {
+    z-index: 12; /* Menor z-index para evitar conflitos */
+    position: absolute;
+    top: 46.5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Para que não capture cliques */
+}
+
+.galao1 {
+    z-index: 12; /* Menor z-index para evitar conflitos */
+    position: absolute;
+    top: 46.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Para que não capture cliques */
+}
+
+.garrafas350ml{
+    z-index: 12; /* Menor z-index para evitar conflitos */
+    position: absolute;
+    top: 46.5%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Para que não capture cliques */
+
+}
+
+.garrafas500ml{
+    z-index: 12; /* Menor z-index para evitar conflitos */
+    position: absolute;
+    top: 59%;
+    left: 83.5%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Para que não capture cliques */
+
+}
+
+.garrafas1l {
+    z-index: 12; /* Menor z-index para evitar conflitos */
+    position: absolute;
+    top: 59.5%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Para que não capture cliques */
+}
+
+.galao2{
+    z-index: 12; /* Menor z-index para evitar conflitos */
+    position: absolute;
+    top: 59.5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Para que não capture cliques */
+}
+
+
+
+
+.square1, .square2, .square3, .square4, .square5, .square6 {
+    position: absolute;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Menor z-index */
+    overflow-x: visible;
+    width: 110px;
+    height: 110px;
+    background-color: #9b2f2f;
+    border: 2px solid #daa520;
+}
+
+.square1 {
+    top: 47%;
+    left: 20%;
+    z-index: 11;
+}
+
+.square2 {
+    top: 47%;
+    left: 50%;
+    z-index: 11;
+
+}
+
+.square3 {
+    top: 47%;
+    left: 80%;
+    z-index: 11;
+}
+
+.square4 {
+    top: 60%;
+    left: 80%;
+    z-index: 11;
+
+}
+
+.square5 {
+    top: 60%;
+    left: 50%;
+    z-index: 11;
+    
+}
+
+.square6 {
+    top: 60%;
+    left: 20%;
+    z-index: 11;
+
+}
+
+
+.galaotext1{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 9; /* Menor z-index */
+    overflow-x: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9b2f2f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;
+
+
+}
+
+
+.galaotext {
+    position: absolute;
+    top: 53%;
+    left: 20%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 9; /* Menor z-index */
+    overflow-x: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9b2f2f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;
+}
+
+
+.galaotext2{
+    position: absolute;
+    top: 53%;
+    left: 80%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 9; /* Menor z-index */
+    overflow-x: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9b2f2f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;
+
+
+}
+
+
+.galaotext3{
+    position: absolute;
+    top: 66%;
+    left: 20%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 9; /* Menor z-index */
+    overflow-x: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9b2f2f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;
+
+
+}
+
+.galaotext4{
+    position: absolute;
+    top: 66%;
+    left: 80%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 9; /* Menor z-index */
+    overflow-x: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9b2f2f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;
+
+
+}
+
+.galaotext5{
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 9; /* Menor z-index */
+    overflow-x: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9b2f2f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;
+
+}
+
+.promo, .destauque {
+    position: absolute;
+    left: 50%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* Menor z-index */
+    overflow-x: visible;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #9b2f2f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+        -1px -1px 0 #ffffff, 
+        1px -1px 0 #ffffff, 
+        -1px 1px 0 #ffffff, 
+        1px 1px 0 #ffffff;
+}
+
+.promo {
+    top: 25%;
+}
+
+.destauque {
+    top: 37.8%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 74.5%;
+    left: 50%;
+    object-fit: none;
+    transform: translate(-50%, -50%);
+    z-index: 11; /* Menor z-index */
+}
+
+.icons img {
+    width: 40px;
+    margin: 15px;
+    height: auto;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(56%) saturate(4129%) hue-rotate(0deg) brightness(91%) contrast(92%);
+}

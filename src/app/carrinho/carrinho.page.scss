@@ -1,0 +1,43 @@
+.fundo {
+    position: relative;
+    overflow: hidden;
+    min-height: 130vh;
+}
+
+.background_bluepink {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    height: 118%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.botao-voltar {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 8vw;
+    height: auto;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    overflow-x: visible;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(56%) saturate(4129%) hue-rotate(0deg) brightness(91%) contrast(92%);
+
+}
+
+/* Lista de itens do carrinho que deve rolar */
+
+
+/* Estilo para o botão de checkout */
+.Finalizar {
+    position: fixed;
+    bottom: 10px; /* Fixar o botão na parte inferior da tela */
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 15;
+    max-width: 100%;
+    width: 500px; /* Ajuste o tamanho conforme necessário */
+}

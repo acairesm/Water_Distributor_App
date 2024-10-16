@@ -1,0 +1,33 @@
+<ion-content class="fundo">
+  <img src="../../assets/img/background_bluepink.png" class="background_bluepink">
+  <img src="../../assets/img/botao-voltar.png" class="botao-voltar" (click)="voltarToGarrafao()">
+
+  <!-- Exibir os itens do carrinho -->
+  <ion-list class="cart-list">
+    <ion-item *ngFor="let item of cartItems; let i = index">
+      <ion-label>
+        <h2>{{ item.product.name }}</h2>
+        <p>{{ item.product.description }}</p>
+        <p>{{ item.product.price | currency:'BRL' }}</p>
+        <div>
+          <!-- Botões de aumentar e diminuir quantidade -->
+          <ion-button size="small" color="primary" (click)="decreaseQuantity(item.product.id)">-</ion-button>
+          <span>{{ item.quantity }}</span>
+          <ion-button size="small" color="primary" (click)="increaseQuantity(item.product.id)">+</ion-button>
+        </div>
+      </ion-label>
+      <ion-button color="danger" (click)="removeFromCart(i)">Remover</ion-button>
+    </ion-item>
+  </ion-list>
+
+  <!-- Exibir total do carrinho -->
+  <ion-item>
+    <ion-label>
+      <h2>Total</h2>
+      <p>{{ getTotal() | currency:'BRL' }}</p>
+    </ion-label>
+  </ion-item>
+
+  <!-- Botão de checkout -->
+  <ion-button class="Finalizar" expand="full" (click)="checkout()">Finalizar Compra</ion-button>
+</ion-content>

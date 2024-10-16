@@ -1,27 +1,15 @@
-#container {
-  text-align: center;
+.fundo {
+  position: relative; /* Para permitir o posicionamento absoluto do img */
+  overflow: hidden; /* Para ocultar qualquer parte da imagem que exceda o elemento */
+  min-height: 130vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+}
 
+.fundo img {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  top: 35%;
+  left: 50%;
+  width: 100%; /* Aumente para mais de 100% para expandir a imagem */
+  height: 250%; /* Ajuste também a altura */
+  object-fit: cover;
+  transform: translate(-50%, -50%);
 }
